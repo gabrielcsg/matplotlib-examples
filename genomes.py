@@ -20,7 +20,7 @@ i = 1
 for k in cont:
     opacity = cont[k]/max(cont.values())
     output.write(
-        '<div style="width:100px; border:1px solid #111; height: 100px; float: left; background-color: rgba(0, 0, 0, ' + str(opacity) + ')"></div>')
+        '<div style="width:100px; border:1px solid #111; height: 100px; float: left; background-color: rgba(0, 0, 0, ' + str(opacity) + '); color: #FFF;">' + k + '</div>')
 
     if i % 4 == 0:
         output.write('<div style="clear: both;"></div>')
