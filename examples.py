@@ -27,4 +27,4 @@ plt.scatter(x1, y1, label="My points", color="g", marker="*", s=100)
 plt.legend()
 
 plt.show()
-# plt.savefig("figura1.png", dpi=300)
+# plt.savefig("tmp/fig.png", dpi=300)

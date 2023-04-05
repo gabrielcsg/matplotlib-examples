@@ -23,4 +23,4 @@ plt.plot(years, population, color="k", linestyle="--")
 # show graphic
 # plt.show()
 
-plt.savefig("brazil_growth_population.png", dpi=300)
+plt.savefig("tmp/brazil_growth_population.png", dpi=300)
